@@ -1,0 +1,30 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# Environment and local config
+.env
+.env.*
+*.local
+
+# Go build artifacts
+bin/
+coverage.out
+
+# Python cache
+**/__pycache__/
+*.pyc
+
+# Generated result files
+*_results.json
+analysis_summary.json
+dynamodb_consistency_observations.json
+combined_results.json
+
+# IDE and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
